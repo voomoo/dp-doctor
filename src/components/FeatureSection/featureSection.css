@@ -1,0 +1,30 @@
+.feature__section {
+  margin: 150px 0px;
+}
+
+.feature__section .section__desc {
+  margin-bottom: 80px !important;
+}
+
+.feature__card {
+  max-width: 250px;
+  text-align: center;
+}
+
+.feature__card h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+  padding: 16px 0px;
+}
+
+.feature__card p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}

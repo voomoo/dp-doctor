@@ -1,0 +1,55 @@
+.blog__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 260px;
+}
+
+.blog__card h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.blog__card p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.blog__card small {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2caee2;
+}
+
+.blog__card .blog__btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #ffffff;
+  border-radius: 72px !important;
+  background-color: #2caee2;
+  border: none !important;
+  margin-left: 25px;
+  padding: 5px 20px;
+}
+
+.control {
+  color: #2caee2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.control h2 {
+  cursor: pointer;
+}

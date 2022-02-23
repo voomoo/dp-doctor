@@ -1,0 +1,22 @@
+::marker {
+  content: "»  ";
+  font-size: 4em;
+  color: #2caee2;
+}
+
+.expert__section .expert__bullet {
+  margin-top: 30px;
+}
+
+.expert__section .expert__bullet li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333333;
+  margin: 7px 0px;
+}
+
+.expert__section .expert__bullet li::marker {
+  font-size: 1em;
+}

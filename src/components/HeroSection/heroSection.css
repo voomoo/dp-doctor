@@ -1,0 +1,69 @@
+.hero__section .section__body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero__section {
+  background-image: url("../../../public/assets/images/hero_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0px 220px 0px;
+}
+
+.hero__text {
+  max-width: 350px;
+}
+
+.hero__text .text__heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #333333;
+}
+
+.hero__text .text__desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.hero__btn {
+  padding: 10px 50px !important;
+  border-radius: 50px !important;
+  background-color: #2caee2 !important;
+  border: none !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 28px !important;
+  color: #ffffff !important;
+  margin-bottom: 40px;
+}
+
+.download__btns .download__btn1 {
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 820px) {
+  .hero__section {
+    padding-bottom: 40px;
+  }
+  .hero__section .section__body {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .hero__section .section__body .hero__text {
+    text-align: center;
+  }
+  .hero__section .section__body .image__part {
+    margin-bottom: 20px;
+  }
+
+  .hero__section .section__body .image__part img {
+    max-width: 250px !important;
+  }
+}

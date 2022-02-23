@@ -1,0 +1,56 @@
+.slick-dots li {
+  margin: 0px 50px !important;
+}
+
+.slick-dots {
+  text-align: right !important;
+  right: 100px;
+}
+
+.review {
+  display: flex !important;
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.review p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  max-width: 470px;
+  margin: 50px 0px 20px 100px;
+}
+
+.review h6,
+.review small {
+  margin-left: 100px;
+}
+@media only screen and (max-width: 820px) {
+  .review__section {
+    margin-bottom: 100px;
+  }
+  .review {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  .review p {
+    margin: 10px 0px 20px 10px;
+  }
+  .review h6,
+  .review small {
+    margin-left: 10px;
+  }
+
+  .slick-dots {
+    right: 60px;
+    bottom: 10px;
+  }
+
+  .slick-dots li {
+    margin: 100px 40px 0px 50px !important;
+  }
+}

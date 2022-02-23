@@ -1,0 +1,17 @@
+.accordion-button::after {
+  background-image: url("../../../public/assets/images/plus-circle.png") !important;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+  background-image: url("../../../public/assets/images/minus-circle.png") !important;
+}
+
+.faq__accordion {
+  width: 600px;
+}
+
+@media only screen and (max-width: 820px) {
+  .faq__accordion {
+    width: 350px;
+  }
+}

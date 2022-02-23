@@ -1,0 +1,60 @@
+::marker {
+  content: "»  ";
+  font-size: 3em;
+  color: #2caee2;
+}
+
+.footer {
+  margin: 40px 0px;
+  position: relative;
+}
+
+.footer__background {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  z-index: -2;
+}
+
+.footer1 {
+  border-top: 1px solid #d7d7d7;
+  padding-top: 50px;
+}
+
+.footer2 {
+  display: flex;
+}
+
+.footer .footer__bullet {
+  margin-top: 50px;
+}
+
+.footer .footer__bullet li {
+  cursor: pointer;
+}
+
+.footer__bullet li:hover {
+  color: #2caee2;
+}
+
+.footer__bullet li::marker {
+  font-size: 1.5em;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer1 > div {
+  max-width: 270px;
+}
+
+@media only screen and (max-width: 820px) {
+  .footer1 {
+    flex-wrap: wrap;
+  }
+  .footer2 {
+    flex-wrap: wrap;
+  }
+}
