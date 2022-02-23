@@ -12,4 +12,8 @@
     flex-direction: column-reverse !important;
     align-items: center;
   }
+
+  .extra__img {
+    display: none;
+  }
 }

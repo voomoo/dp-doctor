@@ -39,6 +39,7 @@ const ExtraSection = ({
           </div>
         </div>
         <img
+          className="extra__img"
           src="./assets/images/Vector 6.png"
           alt=""
           style={{
