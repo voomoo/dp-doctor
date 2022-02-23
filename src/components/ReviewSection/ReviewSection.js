@@ -13,9 +13,9 @@ const ReviewSection = () => {
   const settings = {
     customPaging: function (i) {
       return (
-        <a>
-          <img src={customPagingImg[i]} />
-        </a>
+        <span>
+          <img src={customPagingImg[i]} alt="review user" />
+        </span>
       );
     },
     dots: true,
@@ -41,7 +41,7 @@ const ReviewSection = () => {
         <div>
           <Slider {...settings}>
             <div className="review">
-              <img src="./assets/images/faisal.png" />
+              <img src="./assets/images/faisal.png" alt="review user" />
               <div>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
@@ -56,7 +56,7 @@ const ReviewSection = () => {
               </div>
             </div>
             <div className="review">
-              <img src="./assets/images/image2.png" />
+              <img src="./assets/images/image2.png" alt="review user" />
               <div>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
@@ -71,7 +71,7 @@ const ReviewSection = () => {
               </div>
             </div>
             <div className="review">
-              <img src="./assets/images/faisal.png" />
+              <img src="./assets/images/faisal.png" alt="review user" />
               <div>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
