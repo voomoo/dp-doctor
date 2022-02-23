@@ -12,7 +12,7 @@ const ExtraSection = ({
   reverse = false,
 }) => {
   return (
-    <div className="extra__section">
+    <div className="extra__section" id="about-us">
       <Container style={{ position: "relative" }}>
         <h3 className="section__title text-center mt-5">{title}</h3>
         <h6

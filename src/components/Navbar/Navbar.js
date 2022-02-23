@@ -54,16 +54,16 @@ const Navbar = () => {
                 Pharmecy Owner 3
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="mx-2 nav__link" href="#action1">
+            <Nav.Link className="mx-2 nav__link" href="#about-us">
               About Us
             </Nav.Link>
-            <Nav.Link className="mx-2 nav__link" href="#action2">
+            <Nav.Link className="mx-2 nav__link" href="#blog-section">
               Blog
             </Nav.Link>
-            <Nav.Link className="mx-2 nav__link" href="#">
+            <Nav.Link className="mx-2 nav__link" href="#contact-us">
               Contact
             </Nav.Link>
-            <Nav.Link className="mx-2 nav__link" href="#">
+            <Nav.Link className="mx-2 nav__link" href="#faq-section">
               FAQ
             </Nav.Link>
           </Nav>

@@ -10,7 +10,7 @@ import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="contact-us">
       <Container className="footer1">
         <div>
           <img src="./assets/images/Logo.png" alt="" />

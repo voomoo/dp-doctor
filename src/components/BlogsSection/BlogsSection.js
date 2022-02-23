@@ -44,7 +44,7 @@ const settings = {
 const BlogsSection = () => {
   const slider = React.useRef(null);
   return (
-    <div className="expert__section">
+    <div className="expert__section" id="blog-section">
       <Container style={{ position: "relative" }} className="expert__container">
         <h3 className="section__title text-center mt-5">News & Blogs</h3>
         <h6

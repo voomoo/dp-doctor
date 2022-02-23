@@ -4,7 +4,7 @@ import "./faqSection.css";
 
 const FAQSection = () => {
   return (
-    <div className="extra__section">
+    <div className="extra__section" id="faq-section">
       <Container style={{ position: "relative" }}>
         <h3 className="section__title text-center mt-5">
           Frequently Asked Questions{" "}
